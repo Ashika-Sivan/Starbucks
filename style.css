@@ -1,0 +1,456 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'SoDo Sans';
+}
+.navbar {
+    padding:24px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 1px;
+    box-shadow: 0px 1px 3px #d6d0d0;
+}
+
+.logo img {
+    height: 45px;
+    margin-right: 30px; /* Space between logo and navigation links */
+    margin-left: 18px;
+}
+
+.left-div .nav-links {
+    list-style: none;
+    display: flex; 
+    text-transform: uppercase;
+  
+}
+
+
+.nav-links li {
+    margin-left: 15px;
+}
+
+.nav-links a {
+    color: #000000;
+    text-decoration: none;
+    transition: color 0.3s ease;
+    font-size: 14px;
+    font-weight: bold;
+ 
+}
+.middle{
+    display: flex;
+    align-items: center;
+    margin-left: 470px;
+    letter-spacing: -1px;
+    font-size: 15px;
+}
+
+.right-div{
+    margin-left: 40px;
+    
+}
+
+.right-div .nav-links {
+    list-style: none;
+    display: flex;
+    flex-grow: 1; /* This makes the nav-links container grow and push content to the left */
+  
+}
+
+.nav-links a:hover {
+    color:rgb(39, 65, 39);
+}
+
+.right-div button{
+    padding: 8px 19px;
+}
+
+/*specifing the signin button */
+.nav-links .signin button {
+  border: 1.2px solid;
+  background-color: white;
+  color: black;
+  font-size: 14px;
+  border-radius: 17px;
+
+}
+.nav-links .joinnow button {
+    border: 1.2px solid;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+    border-radius: 19px;
+  
+}
+.row{
+  display: flex;
+  align-items: center;
+  width: 100%;
+  
+
+}
+.text-col{
+  flex: 1;
+
+}
+.img.col{
+  flex: 1;
+
+}
+
+
+  /* -------------------------------middle body section  ------------------------------------------*/
+
+
+  .slide1{
+    background-color: #fa745c;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-bottom: 30px;
+    
+}
+.contents {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #1e3932;
+}
+
+.main {
+    text-align: center;
+    width: 400px;
+    font-size: 50px;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+.subtext{
+    text-align: center;
+    font-size: 24px;
+    font-weight: 400;
+    width: 440px;
+    margin-top: 20px;
+}
+.s1button{
+    background-color: transparent;
+    margin-top: 25px;
+    width: 110px;
+    padding: 10px 15px;
+    border-radius: 18px;
+    border-width: 1px;
+    border-color: #1e3932;
+    font-weight: bold;
+    color: #1e3932;
+    letter-spacing: .8px;
+    border-style: solid;
+}
+.condainer{
+    margin-top: 35px;
+}
+/* ----------------slide2----------------------- */
+
+
+.slide2{
+    background-color: #9e2240;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-bottom: 30px;
+}
+.contents2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #ffffff;
+}
+.main2 {
+    text-align: center;
+    width: 400px;
+    font-size: 50px;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+.subtext2{
+    text-align: center;
+    font-size: 23px;
+    font-weight: 400;
+    width: 449px;
+    margin-top: 20px;
+}
+.s2button{
+    background-color: transparent;
+    margin-top: 25px;
+    width: 110px;
+    padding: 10px 15px;
+    border-radius: 18px;
+    border-width: 1px;
+    border-color: #ffffff;
+    font-weight: bold;
+    color: #ffffff;
+    letter-spacing: .8px;
+    border-style: solid;
+}
+
+/* -------------------slide3-------------------------- */
+.slide3{
+    background-color: #006241;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-bottom: 30px;
+}
+.main3{
+    font-size:24px ;
+    font-weight:600; 
+    align-items: center;
+    margin-bottom: 30px;
+    
+}
+.subtext3{
+    text-align: center;
+    width: 450px;
+    font-size: 19px;
+    line-height: 1.7;
+    margin-bottom: 10px;
+    font-weight: 400;
+}
+/* -------------slide4----------------- */
+
+.slide4{
+    background-color: #d9e89a; 
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-bottom: 30px;
+    
+}
+.contents4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #1e3932;
+}
+
+.main4 {
+    text-align: center;
+    width: 450px;
+    font-size: 50px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    line-height: 1.2;
+}
+.subtext4{
+    text-align: center;
+    font-weight: 450;
+    width: 450px;
+    margin-top: 24px;
+    font-size: 24px;
+    margin-top: 30px;
+}
+.s4button{
+    background-color: transparent;
+    margin-top: 45px;
+    width: 110px;
+    padding: 10px 15px;
+    border-radius: 18px;
+    border-width: 1px;
+    border-color: #1e3932;
+    font-weight: bold;
+    color: #1e3932;
+    letter-spacing: .8px;
+    border-style: solid;
+}
+/* --------------------slide5------------------ */
+.slide5{
+    background-color: #ffbe9e;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-bottom: 30px;
+}
+.contents5 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #1e3932;
+}
+
+.main5 {
+    text-align: center;
+    width: 450px;
+    font-size: 24px;
+    font-weight: 600;
+}
+.subtext5{
+    text-align: center;
+    font-weight: 400;
+    width: 450px;
+    margin-top: 24px;
+    font-size: 19px;
+    margin-top: 30px;
+    line-height: 30px;
+}
+.s5button{
+    background-color: transparent;
+    margin-top: 40px;
+    width: 110px;
+    min-width: 35px;
+    min-height: 35px;
+    border-radius: 18px;
+    border-width: 1px;
+    border-color: #1e3932;
+    font-weight: bold;
+    color: #1e3932;
+    letter-spacing: .8px;
+    border-style: solid;
+}
+/* ----------------------slide6----------------------------- */
+.slide6{
+    background-color: #ffbe9e;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-bottom: 30px;
+}
+.contents6 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color:#1e3932;
+}
+.main6 {
+    text-align: center;
+    width: 400px;
+    font-size: 25px;
+    font-weight: 600;
+    
+}
+.subtext6{
+    text-align: center;
+    font-size: 19px;
+    font-weight: 400;
+    width: 449px;
+    margin-top: 20px;
+    line-height: 1.75;
+    margin-bottom: 30px;
+}
+.s6button{
+    background-color: transparent;
+    margin-top:  20px;
+    width: 110px;
+    padding: 10px 15px;
+    border-radius: 18px;
+    border-width: 1px;
+    font-weight: bold;
+    letter-spacing: .8px;
+    border: 1px solid #1e3932;
+    color: #1e3932;
+
+}
+
+/* ---------------------footer----------------------- */
+.paragraph1 p {
+    color: #000000;
+    font-size: 14px;
+    font-weight: 400;
+    width: 650px;
+    margin: 0 auto; /* This centers the paragraph horizontally */
+    text-align: center; /* Optional: Centers the text within the paragraph */
+    margin-top: 60px;
+    margin-bottom: 90px;
+    line-height: 1.8;
+}
+.paragraph2 p{
+    color: #000000;
+    font-size: 14px;
+    font-weight: 400;
+    width: 650px;
+    margin: 0 auto; /* This centers the paragraph horizontally */
+    text-align: center; /* Optional: Centers the text within the paragraph */
+    line-height: 1.8;
+}
+.mainfooter{
+    padding-bottom: 30px;
+    margin-bottom: 30px; 
+}
+/* ---------finalfooter----------- */
+.final{
+  box-shadow: 0px -1px 3px #d5d4d4;
+}
+.final .col{
+    flex-basis: 25%;
+    flex-grow: 1;
+    
+}
+.final .col a{
+    display: block;
+    text-decoration: none;
+    color: #918989;
+    font-weight: 400;
+    padding-bottom: 20px;
+
+    
+}
+.col p{
+    margin-left: 10px;
+    font-weight: 400;
+    font-size: 19px;
+    padding-bottom: 20px;
+}
+/* full row hrizontally fized */
+.final .row{
+    align-items: flex-start;
+}
+
+.finalcontents{
+    padding: 30px;
+}
+
+.row {
+    display: grid;
+    grid-template-columns: 140px 190px 200px 200px 190px;
+    column-gap: 30px;
+}
+
+.fa-brands {
+    font-size: 30px;
+    margin-top: 40px;
+}
+/* --------------icons------------------ */
+.icons{
+    height: 47px;
+    width: 47px;
+    display: flex;
+    gap: 15px;
+    margin-bottom: 50px;
+    margin-left: 40px;
+}
+
+
+/* ---------finalstage------------ */
+
+.belowicons a{
+    display: block;
+    margin-left: 40px;
+    margin-bottom: 20px;
+    text-decoration: none;
+    color: #000000;
+}
+
+/* -------------------------------- */
+.copy a{
+    margin-left: 40px;
+    text-decoration: none;
+    color: #928c8c;
+    font-size: 14px;
+    padding-bottom: 50px;
+}
+
+.copy{
+    margin-top: 40px;
+}
+/* ----------------End------------------ */
